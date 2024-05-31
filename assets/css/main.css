@@ -250,7 +250,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 3rem;
   margin-right: 6px;
 }
 
@@ -495,11 +495,13 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../../img/content/spn1.png") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
   z-index: 3;
+  background-position-y: bottom;
+  
 }
 
 @media (min-width: 1034px) {
@@ -727,6 +729,12 @@ section {
 /*--------------------------------------------------------------
 # Services List Section
 --------------------------------------------------------------*/
+.services-list .container {
+  height: 40vh;
+  margin-top: 4rem;
+}
+
+
 .services-list .service-item {
   position: relative;
 }
@@ -1047,6 +1055,13 @@ section {
 --------------------------------------------------------------*/
 .services-cards {
   background: #f7f9fc;
+}
+
+.services-cards .oli-product {
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  margin-bottom: 3rem;
 }
 
 .services-cards .card-item {
@@ -2068,8 +2083,7 @@ section {
 }
 
 .footer .footer-content .footer-info .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  width: 50%;
 }
 
 .footer .footer-content .footer-info .logo span {
